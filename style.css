@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300&display=swap");
+
+body {
+  font-family: poppins, sans-serif;
+  margin: 0px;
+}
+
+#navbar {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+}
+
+#navbar a {
+  color: black;
+  text-decoration: none;
+  margin: 0px 20px;
+  font-size: 1.3em;
+}
+
+#navbar button {
+  color: black;
+  text-decoration: none;
+  margin: 0px 05px;
+  font-size: 1.3em;
+}
+
+#navbar a:hover {
+  text-decoration: underline;
+}
+
+#navbar button:hover {
+  text-decoration: underline;
+}
+
+#navbar-left {
+  float: left;
+  text-align: center;
+}
+
+#navbar-middle {
+  float: left;
+  text-align: center;
+  padding-left: 200px;
+}
+
+#navbar-right {
+  float: right;
+  text-align: center;
+  padding-right: 50px;
+}
+
+section {
+  min-height: 100vh;
+}
+
+section#tim-vine {
+  background: rgb(123, 211, 232);
+  background: linear-gradient(
+    135deg,
+    rgba(123, 211, 232, 1) 0%,
+    rgba(123, 211, 232, 1) 0%,
+    rgba(50, 171, 255, 1) 100%
+  );
+  color: #0f2852;
+}
+
+section#bill-hicks {
+  background: rgb(123, 211, 232);
+  background: linear-gradient(
+    135deg,
+    rgba(123, 211, 232, 1) 0%,
+    rgba(232, 123, 165, 1) 0%,
+    rgba(255, 50, 50, 1) 100%
+  );
+  color: #40081a;
+}
+
+section#stewart-francis {
+  background-color: #85ffbd;
+  background-image: linear-gradient(
+    45deg,
+    #85ffbd 0%,
+    #fffb7d 50%,
+    #ffffff 100%
+  );
+  color: #084012;
+}
+
+article {
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  margin: 0px auto;
+}
+
+h2 {
+  text-align: center;
+  padding: 40px 0px 0px 0px;
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 11px;
+  }
+}
