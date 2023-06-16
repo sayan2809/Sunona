@@ -8,31 +8,23 @@ body {
 #navbar {
   background-color: white;
   padding-top: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   width: 100%;
   position: sticky;
   top: 0px;
 }
 
 #navbar a {
-  color: black;
   text-decoration: none;
   margin: 0px 20px;
   font-size: 1.3em;
 }
 
-#navbar button {
+#navbar-middle a {
   color: black;
-  text-decoration: none;
-  margin: 0px 05px;
-  font-size: 1.3em;
 }
 
 #navbar a:hover {
-  text-decoration: underline;
-}
-
-#navbar button:hover {
   text-decoration: underline;
 }
 
@@ -124,4 +116,82 @@ p {
   body {
     font-size: 11px;
   }
+}
+
+/* nav buttons */
+#donate {
+  margin: 0px 05px;
+  font-size: 1.3em;
+  background: #ff4742;
+  border: 1px solid #ff4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+#donate:hover,
+#donate:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff4742;
+}
+
+#volunteer {
+  margin: 0px 05px;
+  font-size: 1.3em;
+  background: #ffffff;
+  border: 1px solid #ff4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ff4742;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+#volunteer:hover,
+#volunteer:active {
+  background-color: #ff4742;
+  background-position: 0 0;
+  color: #ffffff;
+}
+
+button:active {
+  opacity: 0.5;
+}
+/* nav buttons ends */
+
+#logo {
+  color: #ff4742;
+  font-weight: 900;
+  size: 100px;
 }
