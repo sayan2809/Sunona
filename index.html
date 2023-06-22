@@ -5,28 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div id="navbar">
-      <div id="navbar-left">
-        <a href="#header" id="logo"><img id="" src="" />LOGO</a>
-      </div>
-      <div id="navbar-middle">
-        <a href="#home">Home</a>
-        <a href="#tim-vine">About</a>
-        <a href="#bill-hicks">Service</a>
-        <a href="#stewart-francis">Blog</a>
-        <a href="#collaboration">Collaboration</a>
-        <a href="#become-a-listener">Become A Listener</a>
-      </div>
-      <div id="navbar-right">
+    <header>
+      <a href="#home" class="logo"
+        ><i class="ri-home-heart-fill"></i><span>LOGO</span></a
+      >
+      <ul class="navbar">
+        <li><a href="#home" class="active">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#service">SERVICE</a></li>
+        <li><a href="#blog">BLOG</a></li>
+        <li><a href="#collaboration">COLLABORATION</a></li>
+        <li><a href="#become-a-listener">BECOME A LISTENER</a></li>
+      </ul>
+      <div class="main">
         <button id="volunteer" onclick="">Volunteer</button>
         <button id="donate" onclick="">Donate</button>
+        <div class="bx bx-menu" id="menu-icon"></div>
       </div>
-    </div>
-    <section id="tim-vine">
+    </header>
+    <section id="home">
       <article>
-        <h2>Tim Vine</h2>
+        <h2>HOME</h2>
         <p>
           I said to the gym instructor: ‘Can you teach me to do the splits?’ He
           said: ‘How flexible are you?’ I said: ‘I can’t make Tuesdays.'
@@ -42,9 +57,9 @@
         </p>
       </article>
     </section>
-    <section id="bill-hicks">
+    <section id="about">
       <article>
-        <h2>Bill Hicks</h2>
+        <h2>ABOUT</h2>
         <p>
           I need my sleep. I need about eight hours a day, and about ten at
           night.
@@ -59,9 +74,9 @@
         </p>
       </article>
     </section>
-    <section id="stewart-francis">
+    <section id="service">
       <article>
-        <h2>Stewart Francis</h2>
+        <h2>SERVICE</h2>
         <p>There’s a fine line between hyphenated words.</p>
         <p>
           I used to be in a band called ‘Missing Cat’… you probably saw our
@@ -74,5 +89,60 @@
         </p>
       </article>
     </section>
+    <section id="blog">
+      <article>
+        <h2>BLOG</h2>
+        <p>
+          I said to the gym instructor: ‘Can you teach me to do the splits?’ He
+          said: ‘How flexible are you?’ I said: ‘I can’t make Tuesdays.'
+        </p>
+        <p>I’ve decided to sell my Hoover – it was just collecting dust.</p>
+        <p>
+          I saw Arnold Schwarzenegger eating a chocolate egg. I said: ‘I bet I
+          know what your favourite Christian festival is.’ He said: ‘You have to
+          love Easter, baby.'
+        </p>
+        <p>
+          I was reading a book – ‘The History of Glue’ – I couldn’t put it down.
+        </p>
+      </article>
+    </section>
+    <section id="collaboration">
+      <article>
+        <h2>COLLABORATION</h2>
+        <p>
+          I said to the gym instructor: ‘Can you teach me to do the splits?’ He
+          said: ‘How flexible are you?’ I said: ‘I can’t make Tuesdays.'
+        </p>
+        <p>I’ve decided to sell my Hoover – it was just collecting dust.</p>
+        <p>
+          I saw Arnold Schwarzenegger eating a chocolate egg. I said: ‘I bet I
+          know what your favourite Christian festival is.’ He said: ‘You have to
+          love Easter, baby.'
+        </p>
+        <p>
+          I was reading a book – ‘The History of Glue’ – I couldn’t put it down.
+        </p>
+      </article>
+    </section>
+    <section id="become-a-listener">
+      <article>
+        <h2>BECOME A LISTENER</h2>
+        <p>
+          I said to the gym instructor: ‘Can you teach me to do the splits?’ He
+          said: ‘How flexible are you?’ I said: ‘I can’t make Tuesdays.'
+        </p>
+        <p>I’ve decided to sell my Hoover – it was just collecting dust.</p>
+        <p>
+          I saw Arnold Schwarzenegger eating a chocolate egg. I said: ‘I bet I
+          know what your favourite Christian festival is.’ He said: ‘You have to
+          love Easter, baby.'
+        </p>
+        <p>
+          I was reading a book – ‘The History of Glue’ – I couldn’t put it down.
+        </p>
+      </article>
+    </section>
+    <script src="script.js"></script>
   </body>
 </html>
