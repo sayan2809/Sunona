@@ -164,12 +164,12 @@ p {
 #donate {
   margin: 0px 05px;
   font-size: 1rem;
-  background: #ff4742;
-  border: 1px solid #ff4742;
+  background: var(--main-color);
+  border: 1px solid var(--main-color);
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
   box-sizing: border-box;
-  color: #ffffff;
+  color: var(--bg-color);
   cursor: pointer;
   display: inline-block;
   font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
@@ -191,18 +191,18 @@ p {
 #donate:active {
   background-color: initial;
   background-position: 0 0;
-  color: #ff4742;
+  color: var(--main-color);
 }
 
 #volunteer {
   margin: 0px 05px;
   font-size: 1rem;
-  background: #ffffff;
-  border: 1px solid #ff4742;
+  background: var(--bg-color);
+  border: 1px solid var(--main-color);
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
   box-sizing: border-box;
-  color: #ff4742;
+  color: var(--main-color);
   cursor: pointer;
   display: inline-block;
   font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
@@ -222,9 +222,9 @@ p {
 
 #volunteer:hover,
 #volunteer:active {
-  background-color: #ff4742;
+  background-color: var(--main-color);
   background-position: 0 0;
-  color: #ffffff;
+  color: var(--bg-color);
 }
 
 button:active {
