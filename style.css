@@ -75,19 +75,6 @@ header {
   align-items: center;
 }
 
-.main a {
-  margin-right: 25px;
-  margin-left: 10px;
-  color: var(--text-color);
-  font-size: 1.1rem;
-  font-weight: 500;
-  transition: all 0.5s ease;
-}
-
-.main a:hover {
-  color: var(--main-color);
-}
-
 #menu-icon {
   font-size: 35px;
   color: var(--text-color);
@@ -176,7 +163,7 @@ p {
 /* nav buttons */
 #donate {
   margin: 0px 05px;
-  font-size: 1.3em;
+  font-size: 1rem;
   background: #ff4742;
   border: 1px solid #ff4742;
   border-radius: 6px;
@@ -209,7 +196,7 @@ p {
 
 #volunteer {
   margin: 0px 05px;
-  font-size: 1.3em;
+  font-size: 1rem;
   background: #ffffff;
   border: 1px solid #ff4742;
   border-radius: 6px;
