@@ -140,10 +140,19 @@ header {
   .navbar.open {
     right: 2%;
   }
+  #donate {
+    font-size: 0.9rem;
+    padding: 6px 7px;
+  }
+  #volunteer {
+    font-size: 0.9rem;
+    padding: 6px 7px;
+  }
 }
 
 section {
-  min-height: 100vh;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 article {
