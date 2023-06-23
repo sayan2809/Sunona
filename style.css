@@ -291,3 +291,9 @@ img {
   background-position: 0 0;
   color: var(--main-color);
 }
+
+#about h1 {
+  font-size: 4rem;
+  margin: 50px 10%;
+  color: var(--main-color);
+}
