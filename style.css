@@ -236,7 +236,7 @@ button:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px 10%;
+  margin: 50px 6%;
   width: 90%;
 }
 
@@ -294,6 +294,21 @@ img {
 
 #about h1 {
   font-size: 4rem;
-  margin: 50px 10%;
+  margin: 50px 5%;
   color: var(--main-color);
+}
+
+.mission {
+  display: flex;
+  justify-content: right;
+  align-items: end;
+}
+
+.missionpic {
+  max-width: 600px;
+  float: left;
+}
+
+.vissionpic {
+  max-width: 600px;
 }
