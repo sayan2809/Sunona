@@ -241,7 +241,7 @@ button:active {
 }
 
 img {
-  max-width: 700px;
+  max-width: 800px;
   float: left;
 }
 
@@ -336,4 +336,55 @@ img {
   text-align: left;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.founder h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper1 {
+  box-sizing: border-box;
+  width: 1200px;
+  height: 400px;
+  margin: 60px 10%;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  color: black;
+}
+
+.founder-heading {
+  display: inline-block;
+  justify-content: left;
+  margin-left: 20px;
+}
+
+.founder p {
+  font-size: 1.5rem;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.founder img {
+  margin-right: 20px;
+}
+
+.sayan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.core-team {
+  display: inline-block;
+  margin: 30px 6%;
 }
