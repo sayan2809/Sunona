@@ -6,6 +6,11 @@
   text-decoration: none;
   list-style: none;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --bg-color: #fff;
   --text-color: #222327;
