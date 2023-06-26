@@ -14,7 +14,7 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal(
-  ".main-title, .vission, .mission, .our-team, .volunteers",
+  ".main-title, .vission, .mission, .our-team, .book-now1, .main-para1, .volunteers",
   {
     delay: 500,
     origin: "left",
@@ -27,7 +27,7 @@ ScrollReveal().reveal(".main-img, .vissionpic, .missionpic", {
 });
 
 ScrollReveal().reveal(
-  ".main-para, .book-now, .text-box1, .wrapper1, .core-team",
+  ".main-para, .book-now, .text-box1, .wrapper1, .service-title1, .core-team",
   {
     delay: 700,
     origin: "right",

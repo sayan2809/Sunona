@@ -147,24 +147,6 @@ section {
   padding-bottom: 10px;
 }
 
-article {
-  width: 90%;
-  max-width: 600px;
-  padding: 20px;
-  margin: 0px auto;
-}
-
-h2 {
-  text-align: center;
-  padding: 40px 0px 0px 0px;
-  font-size: 2em;
-}
-
-p {
-  font-size: 1.5em;
-  text-align: center;
-}
-
 /* nav buttons */
 #donate {
   margin: 0px 05px;
@@ -247,20 +229,30 @@ button:active {
 
 img {
   max-width: 800px;
-  float: left;
 }
 
-.text-box h1 {
-  font-size: 3.5rem;
-  line-height: 100%;
-  font-weight: bolder;
+.main-title {
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: -0.48px;
+  line-height: 70px;
+  margin-bottom: 20px;
+  margin-top: 70px;
 }
 
 .text-box span {
   color: var(--main-color);
 }
 
-.text-box p {
+.main-para {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.main-para1 {
+  margin-top: 20px;
   font-size: 1.5rem;
   text-align: left;
 }
@@ -394,12 +386,14 @@ img {
   display: inline-block;
   margin: 30px 6%;
   font-size: 50px;
+  color: #606060;
 }
 
 .volunteers {
   display: inline-block;
   margin: 30px 6%;
   font-size: 50px;
+  color: #606060;
 }
 
 /*core team*/
@@ -547,3 +541,53 @@ img {
   color: rgba(255, 255, 255, 1);
 }
 /*core team ends*/
+
+.service-title {
+  align-items: center;
+  color: #606060;
+  display: flex;
+  font-size: 77.68px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 88px;
+  padding-bottom: 0.5em;
+  position: relative;
+}
+
+.service-title1 {
+  align-items: center;
+  color: #606060;
+  display: flex;
+  font-size: 77.68px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 88px;
+  padding-bottom: 0.5em;
+  position: relative;
+}
+
+.book-now1 {
+  margin-top: 20px;
+  font-size: 1rem;
+  background: var(--bg-color);
+  border: 1px solid var(--main-color);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: var(--main-color);
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
