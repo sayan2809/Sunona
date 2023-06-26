@@ -591,3 +591,10 @@ img {
   touch-action: manipulation;
   vertical-align: middle;
 }
+
+.book-now1:hover,
+.book-now1:active {
+  background-color: var(--main-color);
+  background-position: 0 0;
+  color: var(--bg-color);
+}
