@@ -14,14 +14,14 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal(
-  ".main-title, .vission, .mission, .our-team, .book-now1, .main-para1, .service-title, .textbox2, .volunteers",
+  ".main-title, .vission, .mission, .our-team, .book-now1, .main-para1, .service-title, .text-box2, .volunteers",
   {
     delay: 500,
     origin: "left",
   }
 );
 
-ScrollReveal().reveal(".main-img, .vissionpic, .missionpic", {
+ScrollReveal().reveal(".main-img, .vissionpic, .accordions, .missionpic", {
   delay: 600,
   origin: "bottom",
 });

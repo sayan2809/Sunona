@@ -936,80 +936,90 @@
       </div>
     </section>
     <section class="service" id="service">
-      <div class="wrapper">
-        <div class="text-box">
-          <h1 class="service-title">Connect With A Listener</h1>
-          <p class="main-para">
-            what is one on one listing? <br />How it is beneficial? <br />How
-            safe it is?
-          </p>
-          <button class="book-now" id="book-now" onclick="">Book Now</button>
-        </div>
-        <img
-          class="main-img"
-          src="./neighbors-reaching-out (1).png"
-          alt=""
-          srcset=""
-        />
-      </div>
-      <div class="wrapper">
-        <img
-          class="main-img"
-          src="./people-working-together-online.png"
-          alt=""
-          srcset=""
-        />
-        <div class="text-box">
-          <h1 class="service-title1">LISTENING CIRCLE</h1>
-          <p class="main-para1">
-            what is one on one listing? <br />
-            How it is beneficial? <br />
-            How safe it is?
-          </p>
-          <button class="book-now1" id="book-now1" onclick="">Book Now</button>
+      <div class="connect-with" id="connect-with">
+        <div class="wrapper">
+          <div class="text-box">
+            <h1 class="service-title">Connect With A Listener</h1>
+            <p class="main-para">
+              what is one on one listing? <br />How it is beneficial? <br />How
+              safe it is?
+            </p>
+            <button class="book-now" id="book-now" onclick="">Book Now</button>
+          </div>
+          <img
+            class="main-img"
+            src="./neighbors-reaching-out (1).png"
+            alt=""
+            srcset=""
+          />
         </div>
       </div>
-      <div class="wrapper">
-        <div class="text-box">
-          <h1 class="service-title">LISTENING WORKSHOP</h1>
-          <p class="main-para">
-            what is one on one listing? <br />
-            How it is beneficial? <br />
-            How safe it is?
-          </p>
-          <button class="book-now" id="book-now" onclick="">
-            Learn With Us
-          </button>
+      <div class="listening-circle" id="listening-circle">
+        <div class="wrapper">
+          <img
+            class="main-img"
+            src="./people-working-together-online.png"
+            alt=""
+            srcset=""
+          />
+          <div class="text-box">
+            <h1 class="service-title1">LISTENING CIRCLE</h1>
+            <p class="main-para1">
+              what is one on one listing? <br />
+              How it is beneficial? <br />
+              How safe it is?
+            </p>
+            <button class="book-now1" id="book-now1" onclick="">
+              Book Now
+            </button>
+          </div>
         </div>
-        <img
-          class="main-img"
-          src="./people-collaborating-or-sharing-a-message.png"
-          alt=""
-          srcset=""
-        />
       </div>
-      <div class="wrapper">
-        <img
-          class="main-img"
-          src="./gender-equality-week (1).png"
-          alt=""
-          srcset=""
-        />
-        <div class="text-box">
-          <h1 class="service-title1">COUNSELING</h1>
-          <p class="main-para1">
-            what is one on one listing? <br />
-            How it is beneficial? <br />
-            How safe it is?
-          </p>
-          <button class="book-now1" id="book-now1" onclick="">
-            Connect With Us
-          </button>
+      <div class="listening-workshop" id="listening-workshop">
+        <div class="wrapper">
+          <div class="text-box">
+            <h1 class="service-title">LISTENING WORKSHOP</h1>
+            <p class="main-para">
+              what is one on one listing? <br />
+              How it is beneficial? <br />
+              How safe it is?
+            </p>
+            <button class="book-now" id="book-now" onclick="">
+              Learn With Us
+            </button>
+          </div>
+          <img
+            class="main-img"
+            src="./people-collaborating-or-sharing-a-message.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+      </div>
+      <div class="counseling" id="counseling">
+        <div class="wrapper">
+          <img
+            class="main-img"
+            src="./gender-equality-week (1).png"
+            alt=""
+            srcset=""
+          />
+          <div class="text-box">
+            <h1 class="service-title1">COUNSELING</h1>
+            <p class="main-para1">
+              what is one on one listing? <br />
+              How it is beneficial? <br />
+              How safe it is?
+            </p>
+            <button class="book-now1" id="book-now1" onclick="">
+              Connect With Us
+            </button>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="accordions">
+    <section class="accordions">
       <nav class="navigation">
         <h2 class="faq">FAQ</h2>
         <article>
@@ -1091,6 +1101,7 @@
     <section class="contact-us">
       <div class="wrapper">
         <div class="text-box2">
+          <h2>Ask Us Question</h2>
           <label for="name" class="text">Name<span>*</span></label
           ><input
             type="text"
@@ -1139,8 +1150,12 @@
           <div class="details__box">
             <h1>Services</h1>
             <div>
-              <span>Connect with a Listener</span><span>Listening Circle</span
-              ><span>Listening Workshop</span><span>Counseling</span>
+              <ul class="servicess">
+                <li><a href="#connect-with">Connect with a Listener</a></li>
+                <li><a href="#listening-circle">Listening Circle</a></li>
+                <li><a href="#listening-workshop">Listening Workshop</a></li>
+                <li><a href="#counseling">Counseling</a></li>
+              </ul>
             </div>
           </div>
           <div class="details__box middle__box">
@@ -1148,34 +1163,64 @@
             <div>
               <ul class="about-us">
                 <span>About us </span>
-                <li><i class="ri-mail-line"></i><span>abcd@gmail.com</span></li>
                 <li>
-                  <i class="ri-phone-line"></i><span>+91 1234567890</span>
+                  <i class="ri-mail-line"></i
+                  ><span
+                    ><a href="mailto:abcd@gmail.com">abcd@gmail.com</a></span
+                  >
                 </li>
                 <li>
-                  <i class="ri-map-pin-line"></i><span>Delhi, India</span>
+                  <i class="ri-phone-line"></i
+                  ><span><a href="tel:+91 1234567890">+91 1234567890</a></span>
+                </li>
+                <li>
+                  <i class="ri-map-pin-line"></i
+                  ><span
+                    ><a
+                      href="https://www.google.com/maps/@20.9129475,85.0129407,15z?entry=ttu"
+                      >Odisha, India</a
+                    ></span
+                  >
                 </li>
               </ul>
             </div>
           </div>
           <div class="details__box">
             <h1>Follow us</h1>
-            <ul class="social">
-              <div>
-                <li><i class="ri-twitter-line"></i><span>Twitter</span></li>
+            <div>
+              <ul class="social">
                 <li>
-                  <i class="ri-instagram-line"></i><span>Instagram </span>
+                  <i class="ri-twitter-line"></i
+                  ><span
+                    ><a href="https://twitter.com/SayanDas28">Twitter</a></span
+                  >
                 </li>
                 <li>
-                  <i class="ri-facebook-box-line"></i><span>Facebook</span>
+                  <i class="ri-instagram-line"></i
+                  ><span
+                    ><a
+                      href="https://instagram.com/restinpersonal?igshid=OTk0YzhjMDVlZA=="
+                      >Instagram
+                    </a></span
+                  >
                 </li>
-              </div>
-            </ul>
+                <li>
+                  <i class="ri-facebook-box-line"></i
+                  ><span
+                    ><a href="https://www.facebook.com/sayan209?mibextid=ZbWKwL"
+                      >Facebook</a
+                    ></span
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
       <div class="footer__bottom">
-        <span>© 2023 Sunonaa</span><span>Terms | Privacy | Contact us</span>
+        <span>© 2023 Sunonaa</span><span><a href="">Terms</a></span
+        ><span><a href="">Privacy</a></span>
+        <span><a href="">Contact us</a></span>
       </div>
     </section>
     <script src="script.js"></script>
