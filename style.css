@@ -297,9 +297,9 @@ button:active {
 
 .wrapper1 {
   box-sizing: border-box;
-  width: 1200px;
+  width: 90%;
   height: 400px;
-  margin: 60px 10%;
+  margin: 60px auto;
   background: rgba(217, 217, 217, 0.58);
   border: 1px solid white;
   box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
@@ -926,15 +926,44 @@ body {
     padding: 0px 5px;
   }
   .main-img {
-    max-width: 300px;
+    max-width: 200px;
   }
   .wrapper {
     max-width: 960px;
     min-width: 216px;
   }
+
+  .wrapper1 {
+    height: 450px;
+  }
+
+  .founder-img {
+    width: 200px;
+  }
+  .founder-heading {
+    font-size: 20px;
+  }
+  .founder-name {
+    font-size: 20px;
+  }
+
+  .core-team {
+    font-size: 2em;
+  }
+  .volunteers {
+    font-size: 2em;
+  }
+  .card {
+    width: 100px;
+    height: 100px;
+  }
+  .card:hover img {
+    display: none;
+  }
+
   .text-box1 {
     width: 700px;
-    height: 630px;
+    height: 350px;
   }
 
   .main-title {
@@ -942,7 +971,15 @@ body {
     line-height: 30px;
   }
   .main-para {
-    font-size: 1.2em;
+    font-size: 0.9em;
+    line-height: 20px;
+  }
+  .founder-para {
+    font-size: 0.9em;
+    line-height: 20px;
+  }
+  .main-para1 {
+    font-size: 0.9em;
     line-height: 20px;
   }
   .vission {
@@ -950,7 +987,7 @@ body {
     line-height: 30px;
   }
   .vissionpic {
-    width: 300px;
+    width: 200px;
   }
   .text-box1 p {
     font-size: 0.9em;
@@ -961,10 +998,78 @@ body {
     line-height: 30px;
   }
   .missionpic {
-    width: 300px;
+    width: 200px;
   }
   .our-team {
     font-size: 2em;
+  }
+  .contactpic {
+    display: none;
+    max-width: 100px;
+  }
+  .wrapper1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .card img {
+    max-width: 100px;
+  }
+
+  .service-title {
+    font-size: 1.5em;
+    line-height: 30px;
+  }
+  .service-title1 {
+    font-size: 1.5em;
+    line-height: 30px;
+  }
+  .text-box2 {
+    width: 420px;
+    height: 650px;
+  }
+  .question {
+    width: 320px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__details {
+    font-size: 0.9em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__details li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer a {
+    font-size: 0.9rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .content .title {
+    font-size: 0.6em;
+  }
+  .sci li a {
+    width: 15px;
+    height: 15px;
+  }
+  .sci li .fa-facebook {
+    width: 7px;
+  }
+  .sci li .fa-twitter {
+    width: 12px;
+  }
+  .sci li .fa-linkedin {
+    width: 12px;
+  }
+  .sci li .fa-instagram {
+    width: 12px;
   }
 }
 
@@ -1011,12 +1116,10 @@ body {
     padding: 0px 5px;
   }
   .main-img {
-    width: 300px;
+    width: 200px;
   }
   .wrapper {
     max-width: 960px;
-    min-width: 216px;
-    max-height: 960px;
     min-width: 216px;
   }
   .main-title {
@@ -1024,7 +1127,7 @@ body {
     line-height: 30px;
   }
   .main-para {
-    font-size: 1.2em;
+    font-size: 0.9em;
     line-height: 20px;
   }
   .vission {
@@ -1032,11 +1135,11 @@ body {
     line-height: 30px;
   }
   .vissionpic {
-    width: 300px;
+    width: 200px;
   }
   .text-box1 {
     width: 700px;
-    height: 450px;
+    height: 350px;
   }
   .text-box1 p {
     font-size: 0.9em;
@@ -1044,6 +1147,10 @@ body {
   }
   .our-team {
     font-size: 2em;
+  }
+  .contactpic {
+    display: none;
+    max-width: 100px;
   }
 }
 
