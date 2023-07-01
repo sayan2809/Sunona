@@ -21,10 +21,13 @@ ScrollReveal().reveal(
   }
 );
 
-ScrollReveal().reveal(".main-img, .vissionpic, .accordions, .missionpic", {
-  delay: 600,
-  origin: "bottom",
-});
+ScrollReveal().reveal(
+  ".main-img, .counseling-img, .vissionpic, .accordions, .missionpic",
+  {
+    delay: 600,
+    origin: "bottom",
+  }
+);
 
 ScrollReveal().reveal(
   ".main-para, .book-now, .text-box1, .wrapper1, .service-title1, .contactpic, .core-team",

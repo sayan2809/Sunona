@@ -178,6 +178,10 @@ button:active {
   max-width: 800px;
 }
 
+.counseling-img {
+  max-width: 800px;
+}
+
 .main-title {
   font-size: 75px;
   font-style: normal;
@@ -928,14 +932,12 @@ body {
   .main-img {
     max-width: 80px;
   }
+  .counseling-img {
+    max-width: 80px;
+  }
   .wrapper {
     max-width: 960px;
     min-width: 216px;
-    margin-top: 50px;
-  }
-
-  .wrapper1 {
-    height: 450px;
     margin-top: 50px;
   }
 
@@ -961,8 +963,8 @@ body {
   }
 
   .text-box1 {
-    width: 700px;
-    height: 450px;
+    width: 90%;
+    height: 200px;
   }
   .accordion,
   .sub-accordion {
@@ -993,6 +995,9 @@ body {
   .vission {
     font-size: 2em;
     line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .vissionpic {
     display: none;
@@ -1005,6 +1010,9 @@ body {
   .mission {
     font-size: 2em;
     line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .missionpic {
     display: none;
@@ -1018,8 +1026,10 @@ body {
     max-width: 80px;
   }
   .wrapper1 {
+    width: 90%;
     display: flex;
     flex-direction: column;
+    height: 450px;
   }
   .card img {
     max-width: 80px;
@@ -1037,7 +1047,7 @@ body {
     line-height: 30px;
   }
   .text-box2 {
-    width: 420px;
+    width: 90%;
     height: 650px;
   }
   .question {
@@ -1159,13 +1169,12 @@ body {
   .main-img {
     max-width: 200px;
   }
+  .counseling-img {
+    max-width: 170px;
+  }
   .wrapper {
     max-width: 960px;
     min-width: 216px;
-  }
-
-  .wrapper1 {
-    height: 450px;
   }
 
   .founder-img {
@@ -1193,8 +1202,8 @@ body {
   }
 
   .text-box1 {
-    width: 700px;
-    height: 450px;
+    width: 90%;
+    height: 200px;
   }
   .accordion,
   .sub-accordion {
@@ -1225,6 +1234,9 @@ body {
   .vission {
     font-size: 2em;
     line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .vissionpic {
     width: 200px;
@@ -1236,6 +1248,9 @@ body {
   .mission {
     font-size: 2em;
     line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .missionpic {
     width: 200px;
@@ -1250,6 +1265,8 @@ body {
   .wrapper1 {
     display: flex;
     flex-direction: column;
+    width: 90%;
+    height: 450px;
   }
   .card img {
     max-width: 80px;
@@ -1267,7 +1284,7 @@ body {
     line-height: 30px;
   }
   .text-box2 {
-    width: 420px;
+    width: 90%;
     height: 650px;
   }
   .question {
