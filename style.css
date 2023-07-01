@@ -995,6 +995,7 @@ body {
     line-height: 30px;
   }
   .vissionpic {
+    display: none;
     width: 80px;
   }
   .text-box1 p {
@@ -1006,6 +1007,7 @@ body {
     line-height: 30px;
   }
   .missionpic {
+    display: none;
     width: 80px;
   }
   .our-team {
